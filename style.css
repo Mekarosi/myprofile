@@ -1,17 +1,23 @@
 body {
-  background-color: gainsboro;
+  background-color: rgb(219, 212, 212);
   text-align: center;
+  
 } 
+
 
 h1 {
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   font-style: italic;
   text-transform: uppercase;
   color: rgba(90, 55, 3, 0.8);
+  
 }
 
+h1:hover{
+    background: rgba(155, 91, 91, 0.5);		
+}
 
 ul {
     list-style: none;
@@ -20,9 +26,18 @@ ul {
 p , h2, li {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.1em;
 }
 
 h2.inform-heading {
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.4;
+}
+
+.container {
+     display: inline-block ;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-left: 90px;
 }
