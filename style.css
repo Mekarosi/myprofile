@@ -1,0 +1,28 @@
+body {
+  background-color: gainsboro;
+  text-align: center;
+} 
+
+h1 {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  color: rgba(90, 55, 3, 0.8);
+}
+
+
+ul {
+    list-style: none;
+}
+
+p , h2, li {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+h2.inform-heading {
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
